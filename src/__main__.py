@@ -4,6 +4,11 @@ from telegram.ext import Filters
 from src.auth import authenticate
 from src.imgur_upload import imgur_upload
 from src.IArequest import request_respbai
+import configparser
+
+config = configparser.ConfigParser()
+config.read('auth.ini')
+TOKEN = config.get('credentials', 'BOT_TOKEN')
 
 
 # Handles the image, download it and upload to imgur
@@ -21,14 +26,14 @@ def hand_actions(bot, update):
 
 
 # Displays the start message when '/start' is handled
-def start(bot, update):
+def help(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text="Send an .jpg or .png image file")
 
 
 if __name__ == '__main__':
-    updater = Updater('841251465:AAH63HRZGvnCyUiRAsEh-tPZErpp8uHuQFs')
+    updater = Updater(TOKEN)
     dp = updater.dispatcher
-    dp.add_handler(CommandHandler('start', start))
+    dp.add_handler(CommandHandler('help', help))
 
     client = authenticate()
 
