@@ -54,3 +54,21 @@ JavaScript error: https://platform.twitter.com/widgets/widget_iframe.e3a0e1b01ae
 1570936740039	Marionette	INFO	Listening on port 43119
 1570936740133	Marionette	WARN	TLS certificate errors will be ignored for this session
 1570936742743	Marionette	INFO	Stopped listening on port 43119
+1570938334188	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebxmdAV"
+1570938334590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570938334590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570938334590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570938334590	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1570938336166	Marionette	INFO	Listening on port 43599
+1570938336195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.e3a0e1b01ae601b6c9cf798a93ab7e69.html?origin=https%3A%2F%2Fapi.imgur.com, line 12: Error: Network error.
+1570938339000	Marionette	INFO	Stopped listening on port 43599
+1570938368551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile86oj8N"
+1570938368950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570938368950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570938368950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570938368950	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1570938370493	Marionette	INFO	Listening on port 45521
+1570938370557	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://platform.twitter.com/widgets/widget_iframe.e3a0e1b01ae601b6c9cf798a93ab7e69.html?origin=https%3A%2F%2Fapi.imgur.com, line 12: Error: Network error.
+1570938373130	Marionette	INFO	Stopped listening on port 45521
