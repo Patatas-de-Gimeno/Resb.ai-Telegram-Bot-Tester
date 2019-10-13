@@ -4,6 +4,7 @@ from telegram.ext import Filters
 from src.auth import authenticate
 from src.imgur_upload import imgur_upload
 from src.IArequest import request_respbai
+import telegram
 import configparser
 
 config = configparser.ConfigParser()
@@ -21,7 +22,7 @@ def hand_actions(bot, update):
     url = image['link']
 
     response_jsons = request_respbai(url)
-    text = "\n".join(response_jsons)
+    text = "RECOGNIZED OBJECTS: \n\n" + "\n".join(response_jsons)
     bot.sendMessage(chat_id=update.message.chat_id, text=text)
 
 

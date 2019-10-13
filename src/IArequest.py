@@ -33,6 +33,6 @@ def request_respbai(image_url):
         for elem in detections:
             for key in elem:
                 if key == 'label':
-                    final_responses.append(elem[key])
+                    final_responses.append(elem[key].capitalize())
 
     return final_responses
