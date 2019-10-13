@@ -27,7 +27,7 @@ def hand_actions(bot, update):
 
 # Displays the start message when '/start' is handled
 def help(bot, update):
-    bot.sendMessage(chat_id=update.message.chat_id, text="Send an image file to get te IA response")
+    bot.sendMessage(chat_id=update.message.chat_id, text="Send an .jpg or .png image file")
 
 
 if __name__ == '__main__':
