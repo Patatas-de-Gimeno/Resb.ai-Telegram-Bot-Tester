@@ -105,3 +105,6 @@ venv.bak/
 
 #images
 src/image.jpg
+
+#auth.ini
+src/auth.ini
